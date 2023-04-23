@@ -1,0 +1,16 @@
+.card-feedback-box {
+    width: 100%;
+    background: $white-color;
+    height: 340px;
+    padding: 30px;
+    box-shadow: 5px 10px 40px #ac7c35;
+    border-radius: 12px;
+}
+
+.card-rotate-5 {
+    transform: rotate(5deg);
+}
+
+.card-rotate-flip-5 {
+    transform: rotate(-5deg); 
+}

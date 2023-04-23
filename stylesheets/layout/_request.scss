@@ -1,0 +1,90 @@
+#request {
+    background: $accent-color;
+}
+
+.request-form-container {
+    background: $white-color;
+    padding: 22px;
+    border-radius: 12px;
+}
+
+form input[type=text], input[type=email] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid $brand-color;
+    border-radius: 8px;
+    margin: 8px 0px 24px 0px;
+}
+
+input[type=email]:focus {
+    outline: none;
+    border-color: $secondary-color;
+    border-style: 1px solid;
+    padding: 5px 2px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid $secondary-color;
+    padding: 5px 2px;
+}
+
+input[type=text], input[type=email], input[type=radio], input[type=checkbox] {
+    color: $brand-color;
+}
+
+input[type=text]::placeholder, input[type=email]::placeholder, input[type=radio]::placeholder, input[type=checkbox]::placeholder {
+    font-style: italic;
+    color: $brand-color;
+}
+
+label, legend {
+    color: $brand-color;
+    text-align: left !important;
+}
+
+input:focus::placeholder {
+    color: $secondary-color;
+}
+
+fieldset span {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    margin-right: 12px;
+}
+
+fieldset {
+    border: 1px solid $brand-color;
+    border-radius: 8px;
+    display: grid;
+    grid-auto-flow: column;  
+    margin: 8px 0px 22px 0px;
+}
+
+fieldset:focus {
+    color: $secondary-color;
+}
+
+textarea {
+    outline: none;
+    border: none;
+}
+
+textarea::placeholder {
+    color: $brand-color;
+    font-style: italic;
+}
+
+textarea:focus::placeholder {
+    color: $secondary-color;
+}
+
+#request button {
+    background: $vintage-color;
+    color: $white-color
+}
+
+#request button:hover {
+    background: $secondary-color;
+}

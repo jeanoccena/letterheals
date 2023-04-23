@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+button {
+    border: none;
+    padding: 8px 36px;
+    border-radius: 20px;
+    background: $accent-color;
+}
+
+button:hover {
+    background: $secondary-color;
+}
+
+a.welcome-link, a.welcome-link:hover {
+    color: $light-grey;
+    text-decoration: none;
+}
+

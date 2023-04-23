@@ -1,0 +1,17 @@
+#why {
+    background: $brand-color;
+}
+
+#why h1, #why p {
+    color: $white-color;
+}
+
+#why h4 {
+    font-family: $text-font-stack;
+    color: $white-color
+}
+
+#why #icon {
+    font-size: $font-xlarge;
+    color: $secondary-color;
+}

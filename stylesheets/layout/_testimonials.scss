@@ -1,0 +1,26 @@
+#testimonials {
+    background: $vintage-color;
+}
+
+#testimonials p {
+    font-style: italic;
+}
+
+#testimonials h1 {
+    color: $white-color;
+}
+
+#testimonials h5 {
+    color: $brand-color;
+    font-family: $text-font-stack;
+    margin-bottom: 0px;
+}
+
+#testimonials span {
+    color: $light-grey;
+}
+
+.card-feedback-box {
+    margin-right: 12px;
+}
+

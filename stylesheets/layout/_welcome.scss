@@ -1,0 +1,50 @@
+#welcome-screen {
+    background: $brand-color;
+}
+
+#welcome-flap-wrap {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    text-align: center;
+}
+
+#welcome-flap {
+    height: 440px;
+}
+
+#welcome-env-flap {
+    clip-path: polygon(100% 100%, 50% 0%, 0% 100%);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    background:$vintage-color;
+    height: 50vh;
+    width: 100vw;
+}
+
+#welcome-env-logo {
+    margin: 0px auto;
+    top: -100px;
+    position: relative;
+}
+
+img.welcome-env-logo  {
+    max-width: 30%;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+//Media Query
+@media only screen and (min-width: map-get($breakpoints, small)) and (max-width: map-get($breakpoints, medium))
+{    
+    #welcome-flap, #welcome-env-flap, #welcome-env-logo {
+        display: none; 
+    }
+
+    h1.welcome-message {
+        font-size: 6.8rem;
+        line-height: 1.2;
+    }
+}

@@ -1,0 +1,47 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $mid-grey;
+  font: normal 16px $text-font-stack;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $white-color;
+}
+
+h1 {
+  font: 4.209rem $heading-font-stack;
+}
+
+h2 {
+  font: 3.157rem $heading-font-stack;
+}
+
+h3 {
+  font: 2.369rem $heading-font-stack;
+}
+
+h4 {
+  font: 1.777rem $heading-font-stack;
+}
+
+h5 {
+  font: 1.333rem $heading-font-stack;
+}
+
+h6 {
+  font: 0.75rem $heading-font-stack;
+}
+
+.green-text {
+  color: $secondary-color;
+}
+
+.pink-text {
+  color: $accent-color
+}
+
+.logo-text {
+  font-family: $heading-font-stack;
+}

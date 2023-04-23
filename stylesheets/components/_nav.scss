@@ -1,0 +1,44 @@
+nav.nav-bar {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+}
+
+ul.nav-menu {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+
+li.nav-menu-item {
+    margin-right: 24px;
+}
+
+.sticky {
+    position: sticky;
+    top: 764;
+    width: 100%;
+  }
+
+//Media Query
+//Media Query
+@media only screen and (min-width: map-get($breakpoints, small)) and (max-width: map-get($breakpoints, medium))
+{    
+    ul.nav-menu{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: map-get($breakpoints, large))
+{
+    div.mobile-menu {
+        display: none;
+    }
+}
